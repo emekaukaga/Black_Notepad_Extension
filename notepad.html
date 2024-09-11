@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Black Notepad</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="controls">
+    <button id="clear-btn">Clear Notepad</button>
+    <button id="download-btn">Download as .txt</button>
+    <label for="bg-color-picker">Background Color: </label>
+    <input type="color" id="bg-color-picker" value="#000000">
+    <label for="text-color-picker">Text Color: </label>
+    <input type="color" id="text-color-picker" value="#ffffff">
+  </div>
+
+  <div contenteditable="true" id="notepad"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

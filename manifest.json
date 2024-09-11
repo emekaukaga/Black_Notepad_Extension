@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Black Notepad",
+  "version": "1.0",
+  "description": "A simple black notepad that opens in Chrome.",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+
+"action": {
+    "default_title": "Open Black Notepad"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
