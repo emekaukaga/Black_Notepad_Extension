@@ -8,9 +8,20 @@
     "service_worker": "background.js"
   },
 
-"action": {
+  "action": {
     "default_title": "Open Black Notepad"
   },
+
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+N",  // Windows/Linux key combo (Alt + N)
+        "mac": "MacCtrl+N"      // Mac key combo (Control + N)
+      },
+      "description": "Open Black Notepad"
+    }
+  },
+
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
